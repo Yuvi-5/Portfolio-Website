@@ -16,9 +16,6 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-sm text-slate-400">{personalInfo.name}</p>
-              <p className="text-xs text-slate-600">
-                {personalInfo.motto}
-              </p>
             </div>
           </div>
 
