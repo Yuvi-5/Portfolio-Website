@@ -99,22 +99,6 @@ const Hero = () => {
             {personalInfo.heroDescription}
           </motion.p>
 
-          {/* Motto */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.55 }}
-            className="text-xl md:text-2xl font-bold mb-10"
-            style={{ fontFamily: "'JetBrains Mono', monospace" }}
-          >
-            <span className="text-indigo-400">Correct</span>
-            <span className="text-slate-600">. </span>
-            <span className="text-amber-400">Complete</span>
-            <span className="text-slate-600">. </span>
-            <span className="text-emerald-400">On-Time</span>
-            <span className="text-slate-600">.</span>
-          </motion.p>
-
           {/* CTA buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
